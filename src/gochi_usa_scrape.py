@@ -6,8 +6,8 @@ from time import sleep
 import os
 
 
-mail = os.environ['NICO_MAIL'] # 環境変数で設定
-password = os.environ['NICO_PASS'] # 環境変数で設定
+mail = os.environ['NICO_MAIL'] # 環境変数で設定。ニコニコ動画の登録メールアドレス
+password = os.environ['NICO_PASS'] # 環境変数で設定。ニコニコ動画の登録パスワード
 mongo_url = "localhost:27017"
 scrollTo = 62000
 scrollUp = 200
